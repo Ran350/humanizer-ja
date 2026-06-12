@@ -1,0 +1,20 @@
+{
+  "name": "humanizer-ja",
+  "owner": {
+    "name": "Ran350",
+    "url": "https://github.com/Ran350"
+  },
+  "description": "日本語の「AIっぽさ」を取り除く humanizer-ja skill の配布マーケットプレイス。",
+  "plugins": [
+    {
+      "name": "humanizer-ja",
+      "source": "./",
+      "description": "日本語の説明文・ブログから「AIが書いた感」を取り除き、自然な日本語に書き換える skill。",
+      "version": "0.1.0",
+      "license": "MIT",
+      "author": {
+        "name": "Ran350"
+      }
+    }
+  ]
+}
