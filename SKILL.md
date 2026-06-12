@@ -1,6 +1,5 @@
 ---
 name: humanizer-ja
-version: 0.1.0
 description: |
   日本語の説明文・ブログ記事から「AIが書いた感」を取り除き、自然な日本語に書き換える。
   300〜700字程度の解説・ブログを推敲・リライトするときに使う。事実・数値・固有名詞・主張・
@@ -8,12 +7,14 @@ description: |
   過剰な体言止め、曖昧な伝聞、無意味な絵文字や太字などの不自然さを直す。診断レポートではなく、
   読める日本語そのものを返すことを最優先にする。
 license: MIT
-compatibility: claude-code opencode
 allowed-tools:
   - Read
   - Write
   - Edit
   - AskUserQuestion
+metadata:
+  version: 0.1.0
+  compatibility: claude-code, opencode
 ---
 
 # humanizer-ja: 日本語の「AIっぽさ」を取り除く
@@ -230,4 +231,3 @@ allowed-tools:
 
 - ベース: [blader/humanizer](https://github.com/blader/humanizer)（MIT License）と、その元になった [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)。
 - 日本語版の設計方針は、説明文・ブログを「自然な日本語に書き換える」ことに最適化している。診断より結果を優先する。
-- 
