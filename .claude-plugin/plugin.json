@@ -1,7 +1,7 @@
 {
   "name": "humanizer-ja",
   "displayName": "humanizer-ja",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "日本語の説明文・ブログから「AIが書いた感」を取り除き、自然な日本語に書き換える skill。",
   "author": {
     "name": "Ran350",
